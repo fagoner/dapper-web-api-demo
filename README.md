@@ -3,9 +3,10 @@
 Simple demo to use Dapper with Mysql
 
 ### Requirements
-- [x] [Docker 19](https://docs.docker.com/engine/install/)
-- [x] [Dotnetcore 3.1 SDK](https://dotnet.microsoft.com/download)
-- [ ] [Flyway client](https://flywaydb.org/documentation/usage/commandline/)
+- [x] <a target="_blank" href="https://docs.docker.com/engine/install/">Docker 19</a>
+- [x] <a target="_blank" href="https://dotnet.microsoft.com/download">Dotnetcore 3.1 SDK</a>
+
+- [ ] <a href="https://flywaydb.org/documentation/usage/commandline/">Flyway client</a>
 
 ### Database
 Mysql8 used with Docker, the docker compose file  to run  the database is in the folder `backing-services`
