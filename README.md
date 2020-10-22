@@ -17,9 +17,6 @@ Mysql8 used with Docker, the docker compose file  to run  the database is in the
 ```
 curl -k --request GET 'https://localhost:5001/api/actors' \
 --header 'Content-Type: application/json'
-
-
-
 ```
 #### Post
 ```
