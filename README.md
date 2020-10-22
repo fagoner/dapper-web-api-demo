@@ -2,6 +2,10 @@
 ## Dapper Web Api Tutorial
 Simple demo to use Dapper with Mysql
 
+### Requirements
+- [x] [Docker 19](https://docs.docker.com/engine/install/)
+- [x] [Dotnetcore 3.1 SDK](https://dotnet.microsoft.com/download)
+- [ ] [Flyway client](https://flywaydb.org/documentation/usage/commandline/)
 
 ### Database
 Mysql8 used with Docker, the docker compose file  to run  the database is in the folder `backing-services`
@@ -12,6 +16,9 @@ Mysql8 used with Docker, the docker compose file  to run  the database is in the
 ```
 curl -k --request GET 'https://localhost:5001/api/actors' \
 --header 'Content-Type: application/json'
+
+
+
 ```
 #### Post
 ```
@@ -48,3 +55,10 @@ Migrations are in folder: `db/sql`
 ```
 flyway -configFiles=db/flyway.conf
 ```
+
+
+### Pendings
+
+- [ ] Add testing project
+- [ ] Add Dockerfile to build image
+- [ ] Add docker-compose to run the application/migrations
